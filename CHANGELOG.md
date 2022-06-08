@@ -1,10 +1,10 @@
 # Changelog
 
-## [0.1.2]
+## [0.1.3]
 ### Changed
-- ADD CHANGES HERE
+- Added javadoc to DummyServiceImpl
 ### Added
-- ADD CHANGES HERE
+- No changes
 
 ## [0.1.1]
 ### Changed
