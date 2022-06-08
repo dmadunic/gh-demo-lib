@@ -1,6 +1,6 @@
 # gh-demo-lib
 
-[![CI Build](https://github.com/ag04/gh-demo-lib/actions/workflows/ci.yml/badge.svg)](https://github.com/ag04/gh-demo-lib/actions/workflows/ci.yml)
+[![CI Build](https://github.com/dmadunic/gh-demo-lib/actions/workflows/ci.yml/badge.svg)](https://github.com/dmadunic/gh-demo-lib/actions/workflows/ci.yml)
 ![](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white&style=flat)
 ![](https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white&style=flat)
 
@@ -38,7 +38,7 @@ repositories {
     mavenCentral()
     maven {
         name = "GitHubPackages"
-        url = uri("https://maven.pkg.github.com/ag04/gh-demo-lib")
+        url = uri("https://maven.pkg.github.com/dmadunic/gh-demo-lib")
         credentials {
             username = System.getenv("gh_username") ?: props.getProperty("gh_username")
             password = System.getenv("gh_token") ?: props.getProperty("gh_token")
@@ -58,7 +58,7 @@ For more see:
 
 ## Development
 ### Setup (First time)
-1. Clone the repository: `git clone git@github.com:ag04/gh-demo-lib.git`
+1. Clone the repository: `git clone git@github.com:dmadunic/gh-demo-lib.git`
 4. Build project with: ` ./gradlew clean build `
 
 ### Manual Release
